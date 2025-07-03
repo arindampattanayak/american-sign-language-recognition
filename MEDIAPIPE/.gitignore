@@ -1,0 +1,39 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# IDE & editor folders
+.vscode/
+.idea/
+
+# Swap files or backups
+*.swp
+
+# Dataset and models (optional but recommended)
+DATASET/
+
