@@ -74,9 +74,10 @@ result_path = according_to_your_local machine
 ### Step 5: Train the Model
 
 This script will:
- ->Load the dataset
- ->Train a CNN model on ASL images
- ->Save the model as your given name in your chosen directory
+- Load the dataset
+- Train a CNN model on ASL images
+- Save the model with your chosen filename in your specified directory
+
  
  ```sh
 python train.py
