@@ -74,9 +74,9 @@ source venv/bin/activate
 Before running the scripts below, edit the paths in the following Python files:
 Example paths to update
  ```sh
-model_path = according_to_your_local machine
-data_path = according_to_your_local machine
-result_path = according_to_your_local machine
+model_path = "path/to/your/model"
+data_path = "path/to/your/dataset"
+result_path = "path/to/save/results"
 ```
 ### Step 5: Train the Model
 
@@ -110,6 +110,10 @@ This script will:
  - Save a ROC AUC curve image
  - Save sample prediction visualizations and a summary report
 
+## 🙌 Acknowledgements
+
+- [MediaPipe](https://mediapipe.dev/)
+- [Dataset by vignonantoine](https://www.kaggle.com/datasets/vignonantoine/mediapipe-processed-asl-dataset)
 
 
 
