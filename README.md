@@ -75,10 +75,10 @@ result_path = according_to_your_local machine
  ```sh
 python train.py
 ```
-#This script will:
- #->Load the dataset
- #->Train a CNN model on ASL images
- #->Save the model as your given name in your chosen directory
+This script will:
+ ->Load the dataset
+ ->Train a CNN model on ASL images
+ ->Save the model as your given name in your chosen directory
 
 ###Step 6: Run Real-Time Prediction (Test Webcam)
 #Make sure your webcam is connected:
