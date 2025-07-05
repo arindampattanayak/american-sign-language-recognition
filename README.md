@@ -94,14 +94,15 @@ This script will:
  ### Step 7: Evaluate Model Performance
 
 To evaluate the model on a subset of your dataset:
+ ```sh
+ python result.py
+```
 This script will:
  - Generate a classification report
  - Save a confusion matrix image
  - Save a ROC AUC curve image
  - Save sample prediction visualizations and a summary report
- ```sh
- python result.py
-```
+
 
 
 
