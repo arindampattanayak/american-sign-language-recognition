@@ -65,7 +65,7 @@ source venv/bin/activate
 ```
  ### Step 4: Update File Paths
 Before running the scripts below, edit the paths in the following Python files:
-# Example paths to update
+Example paths to update
  ```sh
 model_path = according_to_your_local machine
 data_path = according_to_your_local machine
@@ -81,8 +81,8 @@ This script will:
 - Train a CNN model on ASL images
 - Save the model with your chosen filename in your specified directory
 
-###Step 6: Run Real-Time Prediction (Test Webcam)
-#Make sure your webcam is connected:
+### Step 6: Run Real-Time Prediction (Test Webcam)
+Make sure your webcam is connected:
 ```sh
 python test.py
 ```
@@ -91,9 +91,9 @@ This script will:
  - Detect and track your hand using MediaPipe
  - Predict the sign in real-time and display top-3 predictions with confidence
 
- ###Step 7: Evaluate Model Performance
+ ### Step 7: Evaluate Model Performance
 
-#To evaluate the model on a subset of your dataset:
+To evaluate the model on a subset of your dataset:
 This script will:
  - Generate a classification report
  - Save a confusion matrix image
