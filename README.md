@@ -87,9 +87,9 @@ This script will:
 python test.py
 ```
 This script will:
- -Start webcam feed
- -Detect and track your hand using MediaPipe
- -Predict the sign in real-time and display top-3 predictions with confidence
+ - Start webcam feed
+ - Detect and track your hand using MediaPipe
+ - Predict the sign in real-time and display top-3 predictions with confidence
 
  ###Step 7: Evaluate Model Performance
 #Make sure your webcam is connected:
