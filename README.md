@@ -15,14 +15,30 @@ This project uses **deep learning** and **computer vision** to recognize America
 ---
 ## 🧰 Technologies Used
 
-- **Python** – Core programming language
-- **TensorFlow / Keras** – Deep learning framework for model training and inference
-- **MediaPipe** – Hand landmark detection in real time
-- **OpenCV** – Webcam integration and visual feedback
-- **NumPy** – Numerical computing and preprocessing
-- **ImageDataGenerator (Keras)** – For real-time data augmentation
-- **.h5 Model Format** – Saved trained CNN model
-- **Virtual Environment (venv)** – Isolated setup for package management
+### 🧠 Machine Learning / Deep Learning
+- **TensorFlow** + **Keras** – Designing and training the CNN model
+- **ImageDataGenerator** – For on-the-fly image augmentation during training
+- **NumPy** – Efficient numerical operations and image array manipulation
+
+### 📸 Computer Vision
+- **OpenCV** – Capturing webcam feed and rendering real-time hand visualizations
+- **MediaPipe** – Real-time hand landmark detection from video frames
+
+### 📊 Evaluation & Visualization
+- **scikit-learn** – Evaluation metrics like confusion matrix, classification report, ROC AUC
+- **matplotlib** – Plotting confusion matrix, ROC curve, and saving sample predictions
+
+### 🧪 Testing & Analysis
+- **ConfusionMatrixDisplay** – Visual representation of class-wise prediction accuracy
+- **ROC AUC Score / Curve** – Measures multi-class classifier performance
+- **Classification Report** – Detailed precision, recall, f1-score for each sign class
+- **label_binarize** – For multi-class ROC AUC scoring
+
+### 💻 Development Environment
+- **Python (3.7+)**
+- **Virtual Environment (venv)** – Isolated package management for clean setup
+- **OS** – Windows (tested); cross-platform compatible
+
 
 
 
