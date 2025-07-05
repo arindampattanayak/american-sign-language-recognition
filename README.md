@@ -63,6 +63,14 @@ source venv/bin/activate
 ```sh
  pip install tensorflow opencv-python mediapipe scikit-learn matplotlib numpy
 ```
+ ### Step 4: Update File Paths
+Before running the scripts below, edit the paths in the following Python files:
+# Example paths to update
+ ```sh
+model_path = according_to_your_local machine
+data_path = according_to_your_local machine
+result_path = according_to_your_local machine
+```
 
 
 
