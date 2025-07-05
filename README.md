@@ -71,6 +71,36 @@ model_path = according_to_your_local machine
 data_path = according_to_your_local machine
 result_path = according_to_your_local machine
 ```
+### Step 5: Train the Model
+ ```sh
+python train.py
+```
+#This script will:
+ #->Load the dataset
+ #->Train a CNN model on ASL images
+ #->Save the model as your given name in your chosen directory
+
+###Step 6: Run Real-Time Prediction (Test Webcam)
+#Make sure your webcam is connected:
+```sh
+python test.py
+```
+#This script will:
+ #->Start webcam feed
+ #->Detect and track your hand using MediaPipe
+ #->Predict the sign in real-time and display top-3 predictions with confidence
+ 
+ ###Step 7: Evaluate Model Performance
+#Make sure your webcam is connected:
+#To evaluate the model on a subset of your dataset:
+ ```sh
+ python result.py
+```
+#This script will:
+ #->Generate a classification report
+ #->Save a confusion matrix image
+ #->Save a ROC AUC curve image
+ #->Save sample prediction visualizations and a summary report
 
 
 
