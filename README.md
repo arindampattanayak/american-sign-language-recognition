@@ -92,16 +92,17 @@ This script will:
  - Predict the sign in real-time and display top-3 predictions with confidence
 
  ###Step 7: Evaluate Model Performance
-#Make sure your webcam is connected:
+
 #To evaluate the model on a subset of your dataset:
+This script will:
+ - Generate a classification report
+ - Save a confusion matrix image
+ - Save a ROC AUC curve image
+ - Save sample prediction visualizations and a summary report
  ```sh
  python result.py
 ```
-#This script will:
- #->Generate a classification report
- #->Save a confusion matrix image
- #->Save a ROC AUC curve image
- #->Save sample prediction visualizations and a summary report
+
 
 
 
