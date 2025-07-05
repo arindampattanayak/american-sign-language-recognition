@@ -33,6 +33,13 @@ This project uses **deep learning** and **computer vision** to recognize America
 Follow these steps to set up the project locally using a Python virtual environment:
 
 ---
+## 📁 Dataset
+
+This project uses a preprocessed American Sign Language (ASL) dataset based on MediaPipe hand landmarks.
+
+You can download the dataset from Kaggle:
+
+🔗 [MediaPipe Processed ASL Dataset (by vignonantoine)](https://www.kaggle.com/datasets/vignonantoine/mediapipe-processed-asl-dataset)
 
 ### Step 1: Clone the Repository
 
