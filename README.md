@@ -34,7 +34,7 @@ Follow these steps to set up the project locally using a Python virtual environm
 
 ---
 
-### ✅ Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/arindampattanayak/american-sign-language-recognition.git
@@ -53,6 +53,17 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 ```
+ ### Step 3: Install Dependencies
+ 
+ Make sure you have requirements.txt in your project folder. Then run:
+ ```sh
+ pip install -r requirements.txt
+```
+ If you don’t have one yet, manually install the core packages:
+```sh
+ pip install tensorflow opencv-python mediapipe scikit-learn matplotlib numpy
+```
+
 
 
 
