@@ -28,16 +28,7 @@ This project uses **deep learning** and **computer vision** to recognize America
 - **scikit-learn** – Evaluation metrics like confusion matrix, classification report, ROC AUC
 - **matplotlib** – Plotting confusion matrix, ROC curve, and saving sample predictions
 
-### 🧪 Testing & Analysis
-- **ConfusionMatrixDisplay** – Visual representation of class-wise prediction accuracy
-- **ROC AUC Score / Curve** – Measures multi-class classifier performance
-- **Classification Report** – Detailed precision, recall, f1-score for each sign class
-- **label_binarize** – For multi-class ROC AUC scoring
 
-### 💻 Development Environment
-- **Python (3.7+)**
-- **Virtual Environment (venv)** – Isolated package management for clean setup
-- **OS** – Windows (tested); cross-platform compatible
 
 
 
