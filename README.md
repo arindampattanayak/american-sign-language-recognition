@@ -28,7 +28,31 @@ This project uses **deep learning** and **computer vision** to recognize America
 - **scikit-learn** – Evaluation metrics like confusion matrix, classification report, ROC AUC
 - **matplotlib** – Plotting confusion matrix, ROC curve, and saving sample predictions
 
+## ⚙️ Installation & Usage Guide
 
+Follow these steps to set up the project locally using a Python virtual environment:
+
+---
+
+### ✅ Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/arindampattanayak/american-sign-language-recognition.git
+cd american-sign-language-recognition
+```
+### Step 2: Create a Virtual Environment
+
+🪟 For Windows:
+   ```sh
+python -m venv venv
+venv\Scripts\activate
+```
+
+🐧 For macOS/Linux:
+   ```sh
+python3 -m venv venv
+source venv/bin/activate
+```
 
 
 
