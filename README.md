@@ -33,6 +33,13 @@ This project uses **deep learning** and **computer vision** to recognize America
 Follow these steps to set up the project locally using a Python virtual environment:
 
 ---
+## 📁 Dataset
+
+This project uses a preprocessed American Sign Language (ASL) dataset based on MediaPipe hand landmarks.
+
+You can download the dataset from Kaggle:
+
+🔗 [MediaPipe Processed ASL Dataset (by vignonantoine)](https://www.kaggle.com/datasets/vignonantoine/mediapipe-processed-asl-dataset)
 
 ### Step 1: Clone the Repository
 
@@ -67,9 +74,9 @@ source venv/bin/activate
 Before running the scripts below, edit the paths in the following Python files:
 Example paths to update
  ```sh
-model_path = according_to_your_local machine
-data_path = according_to_your_local machine
-result_path = according_to_your_local machine
+model_path = "path/to/your/model"
+data_path = "path/to/your/dataset"
+result_path = "path/to/save/results"
 ```
 ### Step 5: Train the Model
 
@@ -94,14 +101,19 @@ This script will:
  ### Step 7: Evaluate Model Performance
 
 To evaluate the model on a subset of your dataset:
+ ```sh
+ python result.py
+```
 This script will:
  - Generate a classification report
  - Save a confusion matrix image
  - Save a ROC AUC curve image
  - Save sample prediction visualizations and a summary report
- ```sh
- python result.py
-```
+
+## 🙌 Acknowledgements
+
+- [MediaPipe](https://mediapipe.dev/)
+- [Dataset by vignonantoine](https://www.kaggle.com/datasets/vignonantoine/mediapipe-processed-asl-dataset)
 
 
 
