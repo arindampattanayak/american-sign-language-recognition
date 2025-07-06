@@ -8,20 +8,20 @@ from sklearn.model_selection import train_test_split
 import random
 from sklearn.preprocessing import label_binarize
 
-# Paths
+
 model_path = r"E:\INTERN\FINAL MODEL\sign_language_model17.h5"
 data_path = r"E:\INTERN\DATASET\processed_combine_asl_dataset"
 result_path = r"E:\INTERN\RESULT"
 os.makedirs(result_path, exist_ok=True)
 
-# Load model
+
 model = tf.keras.models.load_model(model_path)
 
-# Load labels
+
 LABELS = sorted(os.listdir(data_path))
 num_classes = len(LABELS)
 
-# Prepare dataset
+
 X, y = [], []
 print("Loading dataset...")
 image_limit_per_class = 300
@@ -48,14 +48,14 @@ print("Running predictions...")
 y_pred_probs = model.predict(X_test)
 y_pred = np.argmax(y_pred_probs, axis=1)
 
-# Classification Report
+
 report = classification_report(y_test, y_pred, target_names=LABELS, output_dict=False)
 print("\nClassification Report:")
 print(report)
 with open(os.path.join(result_path, "classification_report.txt"), "w") as f:
     f.write(report)
 
-# Confusion Matrix
+
 cm = confusion_matrix(y_test, y_pred)
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=LABELS)
 fig, ax = plt.subplots(figsize=(12, 10))
@@ -66,7 +66,7 @@ confusion_path = os.path.join(result_path, "confusion_matrix.png")
 plt.savefig(confusion_path)
 plt.show()
 
-# ROC AUC
+
 print("Calculating ROC curves...")
 y_test_bin = label_binarize(y_test, classes=list(range(num_classes)))
 fpr, tpr, _ = roc_curve(y_test_bin.ravel(), y_pred_probs.ravel())
@@ -82,7 +82,7 @@ roc_path = os.path.join(result_path, "roc_curve.png")
 plt.savefig(roc_path)
 plt.show()
 
-# Save sample predictions with top-3 probabilities
+
 print("Saving sample predictions...")
 os.makedirs(os.path.join(result_path, "samples"), exist_ok=True)
 for i in range(25):
@@ -101,7 +101,7 @@ for i in range(25):
     plt.savefig(os.path.join(result_path, "samples", f"sample_{i}.png"))
     plt.close()
 
-# Save summary
+
 with open(os.path.join(result_path, "summary.txt"), "w") as f:
     accuracy = np.mean(y_pred == y_test)
     error_rate = 1 - accuracy
