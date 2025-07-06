@@ -5,7 +5,7 @@ This project uses **deep learning** and **computer vision** to recognize America
 ---
 ##  Research paper Link
 
-- [American Sign Language Alphabet Recognition using CNN and MediaPipe – IEEE Xplore](https://ieeexplore.ieee.org/document/10968373)
+- [Automatic Identification of the American Sign Language Using Machine Learning – IEEE Xplore](https://ieeexplore.ieee.org/document/10968373)
 
 ## 🚀 Features
 
