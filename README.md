@@ -3,6 +3,9 @@
 This project uses **deep learning** and **computer vision** to recognize American Sign Language (ASL) alphabets in real time through a webcam. It combines a **CNN model trained on ASL images** with **MediaPipe hand tracking** and **OpenCV visualization** to create an interactive and accurate gesture recognition system.
 
 ---
+##  Research paper Link
+
+- [American Sign Language Alphabet Recognition using CNN and MediaPipe – IEEE Xplore](https://ieeexplore.ieee.org/document/10968373)
 
 ## 🚀 Features
 
