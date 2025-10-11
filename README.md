@@ -11,7 +11,6 @@ This project uses **deep learning** and **computer vision** to recognize America
 
 - Real-time hand gesture detection using webcam
 - ASL alphabet classification using trained CNN model
-- Top-3 predictions with confidence scores on screen
 - Hand landmark visualization using MediaPipe
 - Dataset augmentation for improved model robustness
 
