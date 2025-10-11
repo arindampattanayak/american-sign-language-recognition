@@ -133,19 +133,14 @@ This script will:
  - Save a ROC AUC curve image
  - Save sample prediction visualizations and a summary report
 
-## WebCam Output
+## Model Evaluation
 
-The following images show real-time ASL letter detection using MediaPipe from a live webcam feed.  
-Detected letters include **D, E, F, S, W, and Y**.
+The following plots show the model’s performance metrics during testing and validation:
 
-| Letter | Output Image |
-|:-------:|:-------------:|
-| D | ![D](RESULT/WebCam_Output/D.png) |
-| E | ![E](RESULT/WebCam_Output/E.png) |
-| F | ![F](RESULT/WebCam_Output/F.png) |
-| S | ![S](RESULT/WebCam_Output/S.png) |
-| W | ![W](RESULT/WebCam_Output/W.png) |
-| Y | ![Y](RESULT/WebCam_Output/Y.png) |
+| Metric | Visualization |
+|:-------:|:--------------:|
+| **Confusion Matrix** | ![Confusion Matrix](RESULT/confusion_matrix.png) |
+| **ROC Curve** | ![ROC Curve](RESULT/roc_curve.png) |
 
 
 ## 🙌 Acknowledgements
