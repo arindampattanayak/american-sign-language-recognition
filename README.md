@@ -4,13 +4,19 @@ This project uses **deep learning** and **computer vision** to recognize America
 
 ---
 
-## YOLOv5 Version
+---
 
+## 🚀 <span style="color:#00BFFF; font-weight:bold;">YOLOv5 Version</span>  
 For the YOLOv5-based implementation of this project, visit:  
-https://github.com/arindampattanayak/american-sign-language-recognition-using-yolo
+👉 **<span style="color:#FFD700;">[https://github.com/arindampattanayak/american-sign-language-recognition-using-yolo](https://github.com/arindampattanayak/american-sign-language-recognition-using-yolo)</span>**
 
-- ## Research Paper Link 
- 🔗 [https://ieeexplore.ieee.org/document/10968373](https://ieeexplore.ieee.org/document/10968373)
+---
+
+## 📘 <span style="color:#32CD32; font-weight:bold;">Research Paper</span>  
+🔗 **<span style="color:#FF4500;">[IEEE Paper Link – American Sign Language Recognition Using YOLOv5](https://ieeexplore.ieee.org/document/10968373)</span>**
+
+---
+
   
 ## 🚀 Features
 
