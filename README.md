@@ -1,4 +1,4 @@
-# 🤟 Real-Time Sign Language Recognition System
+# 🤟 Real-Time Sign Language Recognition System Using MediaPipe
 
 This project uses **deep learning** and **computer vision** to recognize American Sign Language (ASL) alphabets in real time through a webcam. It combines a **CNN model trained on ASL images** with **MediaPipe hand tracking** and **OpenCV visualization** to create an interactive and accurate gesture recognition system.
 
