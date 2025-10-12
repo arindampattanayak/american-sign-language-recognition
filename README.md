@@ -13,9 +13,10 @@ For the YOLOv5-based implementation of this project, visit:
 ---
 
 ## 📘 <span style="color:#32CD32; font-weight:bold;">Research Paper</span>  
-🔗 **<span style="color:#FF4500;">[IEEE Paper Link – American Sign Language Recognition Using YOLOv5](https://ieeexplore.ieee.org/document/10968373)</span>**
+🔗 **<span style="color:#FF4500;">[Published IEEE Paper Link – Automatic Identification of the American Sign Language Using Machine Learning](https://ieeexplore.ieee.org/document/10968373)</span>**
 
 ---
+
 
   
 ## 🚀 Features
