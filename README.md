@@ -4,13 +4,20 @@ This project uses **deep learning** and **computer vision** to recognize America
 
 ---
 
-## YOLOv5 Version
+---
 
+## 🚀 <span style="color:#00BFFF; font-weight:bold;">YOLOv5 Version</span>  
 For the YOLOv5-based implementation of this project, visit:  
-https://github.com/arindampattanayak/american-sign-language-recognition-using-yolo
+👉 **<span style="color:#FFD700;">[https://github.com/arindampattanayak/american-sign-language-recognition-using-yolo](https://github.com/arindampattanayak/american-sign-language-recognition-using-yolo)</span>**
 
-- ## Research Paper Link 
- 🔗 [https://ieeexplore.ieee.org/document/10968373](https://ieeexplore.ieee.org/document/10968373)
+---
+
+## 📘 <span style="color:#32CD32; font-weight:bold;">Research Paper</span>  
+🔗 **<span style="color:#FF4500;">[Published IEEE Paper Link – Automatic Identification of the American Sign Language Using Machine Learning](https://ieeexplore.ieee.org/document/10968373)</span>**
+
+---
+
+
   
 ## 🚀 Features
 
@@ -20,6 +27,22 @@ https://github.com/arindampattanayak/american-sign-language-recognition-using-yo
 - Dataset augmentation for improved model robustness
 
 ---
+
+## WebCam Output
+
+The following images show real-time ASL letter detection using MediaPipe from a live webcam feed.  
+Detected letters include **D, E, F, S, W, and Y**.
+
+| Letter | Output Image |
+|:-------:|:-------------:|
+| D | ![D](RESULT/WebCam_Output/D.png) |
+| E | ![E](RESULT/WebCam_Output/E.png) |
+| F | ![F](RESULT/WebCam_Output/F.png) |
+| S | ![S](RESULT/WebCam_Output/S.png) |
+| W | ![W](RESULT/WebCam_Output/W.png) |
+| Y | ![Y](RESULT/WebCam_Output/Y.png) |
+
+
 ## 🧰 Technologies Used
 
 ### 🧠 Machine Learning / Deep Learning
@@ -117,19 +140,14 @@ This script will:
  - Save a ROC AUC curve image
  - Save sample prediction visualizations and a summary report
 
-## WebCam Output
+## Model Evaluation
 
-The following images show real-time ASL letter detection using MediaPipe from a live webcam feed.  
-Detected letters include **D, E, F, S, W, and Y**.
+The following plots show the model’s performance metrics during testing and validation:
 
-| Letter | Output Image |
-|:-------:|:-------------:|
-| D | ![D](RESULT/WebCam_Output/D.png) |
-| E | ![E](RESULT/WebCam_Output/E.png) |
-| F | ![F](RESULT/WebCam_Output/F.png) |
-| S | ![S](RESULT/WebCam_Output/S.png) |
-| W | ![W](RESULT/WebCam_Output/W.png) |
-| Y | ![Y](RESULT/WebCam_Output/Y.png) |
+| Metric | Visualization |
+|:-------:|:--------------:|
+| **Confusion Matrix** | ![Confusion Matrix](RESULT/confusion_matrix.png) |
+| **ROC Curve** | ![ROC Curve](RESULT/roc_curve.png) |
 
 
 ## 🙌 Acknowledgements
